@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/FlorianPALVADEAU/Wealtify-js/issues"
   },
-  "homepage": "https://github.com/FlorianPALVADEAU/Wealtify-js#readme"
+  "homepage": "https://github.com/FlorianPALVADEAU/Wealtify-js#readme",
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "jest": "^29.7.0"
+  }
 }
