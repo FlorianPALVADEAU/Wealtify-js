@@ -6,15 +6,6 @@
   "scripts": {
     "test": "jest"
   },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts",
-      "tsx",
-      "mjs"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FlorianPALVADEAU/Wealtify-js.git"
