@@ -8,7 +8,7 @@
  * @param {number} investDuration The duration of investing (in YEARS).
  * @returns { number, number } The final amount of the investing action.
  */
-export const calculateCompoundInterest = (startingCapital, investingFrequency, annualInterestRate, investAmount, investDuration) => {
+export default function calculateCompoundInterest (startingCapital, investingFrequency, annualInterestRate, investAmount, investDuration) {
     
     annualInterestRate /= 100;
   
