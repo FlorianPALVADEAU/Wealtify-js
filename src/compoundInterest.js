@@ -21,10 +21,6 @@ export const calculateCompoundInterest = (startingCapital, investingFrequency, a
         finalInterest += interest
         finalAmount += interest + investAmount;
     }
-  
-    return {
-        "finalAmount" : finalAmount, 
-        "totalInterests" : finalInterest
-    };
+    return finalAmount;
   };
   

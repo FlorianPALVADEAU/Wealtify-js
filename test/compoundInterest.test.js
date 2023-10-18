@@ -12,7 +12,7 @@ describe('calculateCompoundInterest', () => {
     const finalResult = result.finalAmount
     const expectedResult = Math.floor(result);
 
-    expect(Number.isFinite(result.finalAmount)).toBe(true);
-    expect(result.finalAmount).toBeCloseTo(expectedResult, 0);
+    expect(Number.isFinite(result)).toBe(true);
+    expect(result).toBeCloseTo(expectedResult, 0);
   });
 });
