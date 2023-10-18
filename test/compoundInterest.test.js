@@ -1,4 +1,4 @@
-import { calculateCompoundInterest } from '../src/compoundInterest';
+import calculateCompoundInterest from '../src/compoundInterest';
 
 describe('calculateCompoundInterest', () => {
   test('should correctly calculate compound interest', () => {
