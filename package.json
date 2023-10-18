@@ -3,17 +3,9 @@
   "version": "1.0.0",
   "description": "This library contains the methods used in wealth optimization and general finance.",
   "main": "./src/index.js",
+
   "scripts": {
     "test": "jest"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts",
-      "tsx",
-      "mjs"
-    ]
   },
   "repository": {
     "type": "git",
