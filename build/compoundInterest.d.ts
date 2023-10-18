@@ -1,0 +1,2 @@
+export function calculateCompoundInterest(startingCapital: number, investingFrequency: number, annualInterestRate: number, investAmount: number, investDuration: number): number;
+//# sourceMappingURL=compoundInterest.d.ts.map
