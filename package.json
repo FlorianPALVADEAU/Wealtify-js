@@ -1,6 +1,6 @@
 {
   "name": "wealtify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This library contains the methods used in wealth optimization and general finance.",
   "main": "./src/index.js",
 
