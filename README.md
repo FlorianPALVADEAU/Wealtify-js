@@ -26,17 +26,38 @@ npm i wealtify-js
 yarn add wealtify-js
 ```
 
-### Import
 
-After installation, you can import our functions  your project using this snippet:
+## Demo
 
-```sh
-@import * from 'wealtify-js'
+Here is a quick demo of Wealtify-js:
+
+```js
+import average from '../src/averaging';
+
+const data = [1, 2, 3];
+const averageData = average(data);
+
+console.log(averageData);
+// Expect 2
 ```
 
 ## Documentation
 
-You can find the Wealtify-js documentation [on the website](https://wealtify-js.netlify.app/).
+You can find the Wealtify-js documentation [on the website](https://github.com/AugustinBriolon/wealtify-doc).
+
+
+## Browser Support
+
+**Chrome:** ✅
+
+**Mozilla:** ✅
+
+**Safari:** ✅
+
+**Opera:** ✅
+
+**Edge:** ✅
+
 
 ## Contributing
 
