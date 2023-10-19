@@ -9,18 +9,18 @@
  * @returns { number, number } The final amount of the investing action.
  */
 export default function calculateCompoundInterest (startingCapital, investingFrequency, annualInterestRate, investAmount, investDuration) {
-    
-    annualInterestRate /= 100;
   
     const nbPeriodes = investDuration * investingFrequency;
     let finalInterest = 0
     let finalAmount = startingCapital;
+    const coeff = annualInterestRate / (investingFrequency*100);
 
     for (let i = 1; i <= nbPeriodes; i++) {
-        const interest = finalAmount * (annualInterestRate / investingFrequency);
+        const interest = finalAmount * coeff;
         finalInterest += interest
         finalAmount += interest + investAmount;
     }
     return finalAmount;
   };
   
+  //TODO : add final interest to the return to know what the customer earned in interest
