@@ -3,7 +3,6 @@
   "version": "1.2.2",
   "description": "This library contains the methods used in wealth optimization and general finance.",
   "main": "./src/index.js",
-  "type": "module",
   "scripts": {
     "test": "jest",
     "release": "release-it",
