@@ -11,16 +11,14 @@
 export default function calculateCompoundInterest (startingCapital, investingFrequency, annualInterestRate, investAmount, investDuration) {
   
     const nbPeriodes = investDuration * investingFrequency;
-    let finalInterest = 0
     let finalAmount = startingCapital;
     const coeff = annualInterestRate / (investingFrequency*100);
 
     for (let i = 1; i <= nbPeriodes; i++) {
         const interest = finalAmount * coeff;
-        finalInterest += interest
         finalAmount += interest + investAmount;
     }
     return finalAmount;
-  };
+  }
   
   //TODO : add final interest to the return to know what the customer earned in interest
